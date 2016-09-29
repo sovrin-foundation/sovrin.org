@@ -1,0 +1,186 @@
+/* DEFAULT */
+
+html, body {
+  font-family: 'open_sanslight', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.045em;
+}
+
+p.tall {
+  line-height: 39px;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.profile-picture {
+  max-width: 100%;
+  padding: 15%;
+}
+
+/* BUTTON */
+
+.button-full {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.button-blue {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #00639E;
+  padding: 6px 15px;
+}
+
+.button-blue:hover {
+  color: #FFFFFF;
+  background-color: #EB920D;
+}
+
+
+.page-container {
+  padding-top: 75px;
+}
+
+.container-fluid {
+  padding-right: 0; 
+  padding-left: 0; 
+}
+
+.center-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.logo-large {
+  height: 99px;
+}
+
+/* NAVIGATION */
+
+.nav-container {
+  height: 75px;
+  background-color: #232323;
+}
+
+  .nav-container .logo-tagline {
+    padding: 17px 0 0 10px;
+  }
+
+.navbar-collapse {
+  background-color: #232323;
+}
+
+.navbar-nav {
+  padding: 21px 0;
+}
+
+.navbar-brand {
+  height: 75px;
+  padding: 19px 15px;
+}
+
+  .navbar-brand img {
+    float: left;
+  }
+
+  .navbar-brand .logo-tagline {
+    padding-left: 20px;
+    padding-bottom: 2px;
+  }
+
+.navbar-collapse {
+  padding: 0;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 21px;
+}
+
+  .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+  }
+
+.nav li {
+  margin: 0 1px;
+}
+
+.nav li a {
+  color: #FFFFFF;
+  border-radius: 0;
+  padding: 6px 15px;
+}
+
+  .nav li a.active,
+  .nav li a:hover {
+    color: #FFFFFF;
+    background-color: #EB920D;
+  }
+
+
+/* HERO CONTAINERS */
+
+.hero-container {
+  padding: 60px 0;
+}
+
+.hero-container>h2 {
+  margin-top: 0;
+}
+
+.hero-container.light *:not(a) {
+  color: #FFFFFF;
+}
+
+.container-bios {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  width:32%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 991px) {
+  .container-bios {
+    width:49%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-bios {
+    width:100%;
+  }
+}
+
+.container-lightblue {
+  background-color: #E4EBEE;
+}
+
+.container-lightorange {
+  background-color: #FAE4C6;
+}
+
+/* FOOTER */
+
+.footer-container {
+  margin-top: 50px;
+}
+
+.footer-container a {
+  color: #232323;
+}
+
+.footer-container h4 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    margin: 7.5px 0;
+  }
+}

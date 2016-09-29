@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sovrin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index-page.css">
+    <link rel="stylesheet" href="/css/technology-styles.css">
+  </head>
+  <body>
+
+    <nav class="nav-container navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="/img/logo.svg" />
+            <img src="/img/logo-tagline.svg" class="hidden-md hidden-sm hidden-xs logo-tagline" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li role="presentation"><a class="" href="/about">ABOUT</a></li>
+            <li role="presentation"><a class="active" href="/technology">TECHNOLOGY</a></li>
+            <li role="presentation"><a class="" href="/docs">LIBRARY</a></li>
+            <li role="presentation"><a class="" href="/contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid page-container">
+      <div>
+
+  <div class="hero-container light"
+       style="background: url('img/tech-bg-01.jpg') no-repeat center center;
+              background-size: cover;">
+    <div class="container">
+      <h1 class="text-center">Sovrin Technology</h1>
+      <br/>
+      <br/>
+      <div class="col-xs-12 col-sm-6">
+        <h2>Global</h2>
+        <p class="tall">
+          Following the principle of diffuse trust, Sovrin already has nodes in several countries. Eventually Sovrin will have thousands more, carefully spread throughout the world.
+          <br/>
+          <br/>
+          (See Public Permissioned and Distributed Ledger below for an explanation of nodes.)
+        </p>
+        <a href="#publicPermissioned" class="button-blue">PUBLIC PERMISSIONED</a>
+        <a href="#distributedLedger" class="button-blue">DISTRIBUTED LEDGER</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6">
+        <img src="/img/tech-open.jpg" alt="" class="tech-icon">
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <h2>Free and Open-Source</h2>
+        <p class="tall">
+          Sovrin’s codebase is Apache2 licensed, a permissive open source license that removes important obstacles to widespread implementation and development.
+          <br/>
+          <br/>
+          If you’re a developer who’s interested in distributed consensus and/or identity, Join the Cause.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container"
+       style="background: url('img/tech-bg-02.jpg') no-repeat center center;
+              background-size: cover;">"
+    <div class="container">
+      <h2 class="text-center">Attribute-Based</h2>
+      <div class="col-xs-12 col-sm-6">
+        <p class="tall">
+          All identity information is separated into individual attributes, such as birth date, first name, street, pseudonyms, frequent flier numbers, etc. 
+          <br/>
+          <br/>
+          To access, login to, or prove something, present only the attributes necessary and nothing else, such as “over 21” without sharing your actual birthday.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <p class="tall">
+          This optimizes privacy, as those receiving your attributes have no way of correlating them with unshared attributes such as your name.
+          <br/>
+          <br/>
+          Attributes have one or more “attestations” attached to prove authenticity, digitally signed by the individual or relevant third parties. (It’s one thing for you to say you have a degree; it’s quite another when the university says so.)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container">
+    <div class="container">
+      <div class="col-xs-12 col-sm-8">
+        <h2>Self-Sovereign</h2>
+        <p class="tall">
+          Sovereign: “One that exercises supreme authority within a limited sphere.”
+          If an identity can be revoked, or the rules changed, by anyone other than its owner, it isn’t sovereign. Your control over your Sovrin identity cannot be revoked, not even by Evernym.
+          The Sovrin platform itself is also sovereign, as it is controlled by consensus of its independently owned and operated nodes and not by Evernym or anyone or anything else.
+          How is this possible? See “Distributed Ledger” below.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <img src="/img/tech-sovereign.jpg" alt="" class="tech-icon">
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container light"
+       style="background: url('img/tech-bg-03.jpg') no-repeat center center;
+              background-size: cover;">
+    <div class="container">
+      <h2 class="text-center">Advanced</h2>
+      <div class="col-xs-12 col-sm-6">
+        <p class="tall">
+          To keep nodes synchronized, Sovrin utilizes Plenum, an advanced distributed consensus algorithm developed by Evernym. Plenum achieves Byzantine fault tolerance, making Sovrin robust and highly tamper-resistant.
+
+          Plenum also leverages advanced elliptic-curve cryptography, digitally signing and encrypting every message, end-to-end, and is more secure than current SSL/TLS protocols.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <p class="tall">
+          Plenum can handle thousands of transactions per second with a latency of a few seconds, compared to about 7 transactions per second with a 10-minute latency for proof-of-work protocols.
+
+          Plenum has a friction-less open-source license, and you can see the codebase here. If you're a coder and would like to help, please Join the Cause.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6">
+        <img src="/img/tech-dedicated.jpg" alt="" class="tech-icon">
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <h2>Free and Open-Source</h2>
+        <p class="tall">
+          Some platforms are designed to be flexible, to support almost any application.
+
+          Not Sovrin.
+
+          Sovrin is dedicated to and engineered for a single purpose: globally trustable self-sovereign identity.
+
+          Sovrin gives other software, websites, blockchains, and distributed ledgers a powerful new source for identity: a universal, private, non-tracked, easy-to-use, self-sovereign identity ledger that supports the entire continuum of the identity graph, from anonymity to pseudonymity to strongly proven full legal identity.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-container"
+       style="background: url('img/tech-bg-04.jpg') no-repeat center center;
+              background-size: cover;">
+    <div class="container">
+      <h2 class="text-center">Privacy-Enhancing</h2>
+      <div class="col-xs-12 col-sm-6">
+        <p class="tall">
+          Too many companies claim to value your privacy, yet impose terms of service that let them harvest, analyze, and sell your data.
+
+          With Sovrin there are no terms and conditions for you to agree to, because you’re not a “user” in the traditional sense; your identity is truly self-sovereign, and no entity in the world can read your data—even your name—without your explicit consent.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <p class="tall">Sovrin’s sophisticated Privacy Enhancing Technologies (PETs) make it nearly impossible for aspects of you and your identity graph to be correlated. Beyond simple privacy concerns, it satisfies tough regulatory requirements, protects you from identity theft, and can mean the difference between life and death for refugees or dissidents targeted by an unfriendly regime.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="publicPermissioned" class="hero-container">
+    <div class="container">
+      <div>
+        <div class="col-xs-12">
+          <h2>Public Permissioned</h2>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <p class="tall">
+          The “nodes” of any distributed ledger are gatekeepers of its data; they follow strict protocols to reach consensus about which submitted data gets in, and which does not.
+
+          Unlike Sovrin, “permissionless” blockchains (like Bitcoin) typically use “proof of work” to reach consensus among the nodes, where anyone with a computer can serve as a node by performing the required work (solving a complex cryptographic puzzle before anyone else). These anonymous systems can have groundbreaking advantages for some applications, such as cryptocurrencies.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <p class="tall">
+          In contrast, Sovrin utilizes a “public permissioned” distributed ledger—not a blockchain—that provides public access for identity owners while permitting only known, trusted, vetted entities to serve as nodes. This provides the greater transparency -- and higher comfort level -- some applications and industries require, while still not relying on any intermediary or central authority.
+
+          For a thorough, authoritative discussion of this topic, see Tim Swanson’s seminal work.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="distributedLedger" class="hero-container container-grey">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6">
+        <h2>Distributed Ledger</h2>
+        <p class="tall">
+          Distributed ledgers introduce a revolutionary new capability: non-trusting entities can securely share and trust a database outside their firewalls, without any intermediary or central authority. Distributed ledgers are immutable, irrefutable, and highly hack-resistant.
+
+          Since each “node” of a distributed ledger has an identical copy of the ledger, not a single comma can be changed anywhere without being noticed, invalidated, and rejected by the network.
+
+          Though cryptocurrencies (there are hundreds now) like Bitcoin would not be possible without distributed ledger technology, the reverse is not true for permissioned ledgers, which can elegantly provide self-sovereign identity with no need for a cryptocurrency. no need for a cryptocurrency.
+
+          The best metaphor we’ve found to convey this new paradigm comes from Dr. Sam Smith and is called “Magic Pennies.”
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <img src="/img/tech-ledger.png" alt="" class="tech-icon">
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer-container container-lightorange">
+        <div class="container hero-container">
+            <div class="col-md-3">
+                <h4><a href="/">Home</a></h4>
+                <h4><a href="/about">About</a></h4>
+                <h4><a href="/about/faq">FAQ</a></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><a href="/technology">Technology</a></h4>
+                <h4><a href="/docs">Library</a></h4>
+            </div>
+            <div class="col-md-3">
+                <h4>Contact</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="/img/logo.svg" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
