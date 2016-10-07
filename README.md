@@ -1,2 +1,2 @@
-# sovrin.org-priv
-Sovrin foundation website
+# sovrin.org
+Sovrin Foundation website
