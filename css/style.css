@@ -106,7 +106,8 @@ a, a:hover {
   }
 
 .nav li {
-  margin: 0 1px;
+	margin: 0 1px;
+	font-size: 12px;
 }
 
 .nav li a {
