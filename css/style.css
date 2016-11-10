@@ -75,7 +75,9 @@ a, a:hover {
 }
 
 .navbar-nav {
-  padding: 21px 0;
+	padding-top: 21px;
+	padding-left: 0;
+	padding-bottom: 21px;
 }
 
 .navbar-brand {
@@ -111,9 +113,12 @@ a, a:hover {
 }
 
 .nav li a {
-  color: #FFFFFF;
-  border-radius: 0;
-  padding: 6px 15px;
+	color: #FFFFFF;
+	border-radius: 0;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 6px;
 }
 
   .nav li a.active,
