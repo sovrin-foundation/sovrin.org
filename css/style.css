@@ -190,3 +190,17 @@ a, a:hover {
     margin: 7.5px 0;
   }
 }
+.magic-pennies {
+  width: 80%;
+  clear: both;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 0px 3px 7px 1px  #D8D8D8; }
+
+.magic-pennies-content {
+  margin: 50px auto;
+  max-width: 400px; }
+
+@media only screen and (max-width: 1024px) {
+  .magic-pennies {
+    width: 100%; } }
