@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sovrin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index-page.css">
+    <link rel="stylesheet" href="/css/technology-styles.css">
+    <link rel="stylesheet" href="/fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <nav class="nav-container navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="/img/logo.svg" />
+            <img src="/img/logo-tagline.svg" class="hidden-md hidden-sm hidden-xs logo-tagline" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li role="presentation"><a class="" href="/about">ABOUT</a></li>
+            <li role="presentation"><a class="" href="/technology.html">TECHNOLOGY</a></li>
+            <li role="presentation"><a class="" href="/docs/">LIBRARY</a></li>
+            <li role="presentation"><a class="" href="http://forum.sovrin.org">FORUM</a></li>
+            <li role="presentation"><a class="" href="/contact.html">CONTACT</a></li>
+            <li role="presentation"><a class="" href="/donate.html">DONATE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid page-container">
+      <div class="faq-container">
+  <div class="container">
+    <h3> What is Project Indy? Is it Sovrin re-packaged as Hyperledger? </h3>
+    <p> Sovrin is a specific deployment of the Hyperledger Indy codebase. Sovrin developed the Indy code base as part of its mission to build a global public utility for self-sovereign identity. Sovrin Foundation contributed the code to Hyperledger under the Hyperledger Indy brand to expand the developer community and allow greater participation. But Sovrin and Indy are distinct. Sovrin is a specific, operating instance of the Hyperledger Indy code that contains identities that are interoperable at the global scale. </p>
+    <h3> Will Sovrin still need to maintain it’s own separate, open-source code base? </h3>
+    <p> Sovrin Foundation will maintain specific releases of the Indy codebase for the Sovrin network. This way anyone can audit the code and make sure that changes being run on the Sovrin Network are approved by the Technical Governance Board and will preserve the requirements imposed by the <a href="http://forum.sovrin.org/t/sovrin-provisional-trust-framework-approved-22-march-2017/221">Sovrin Trust Framework</a>. The genesis transactions that bootstrap the Sovrin ledger and ensure that it complies with the trust framework (as opposed to just implements the code provided by Hyperledger Indy) will be maintained as part of these releases. That process may evolve as the Sovrin Technical Governance Board incorporates Project Indy into its planning and technical oversight process. </p>
+    <h3> WIll Sovrin need to change it’s open source code license? </h3>
+    <p> No. The Hyperledger project uses the same Apache 2.0 license used by the Sovrin Foundation. Those who have contributed code in the past may be contacted to approve the contribution of their code, as per Linux Foundation and Hyperledger guidelines. </p>
+    <p>Developer’s Certificate of Origin 1.1</p>
+    <p>By making a contribution to this project, I certify that: </p>
+    <p>(a) The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or </p>
+    <p>(b) The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or</p>
+    <p>(c) The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it. (d) I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved. </p>
+    <h3> Why can’t the Linux Foundation replace the Sovin Foundation? </h3>
+    <p> The code base being contributed as Hyperledger Indy is only a part of what is required to make a global public utility for identity. <a href="http://forum.sovrin.org/t/sovrin-provisional-trust-framework-approved-22-march-2017/221">The Sovrin Trust Framework</a> and entities willing to host nodes and publicly execute that trust framework are equally or more important for establishing a global public utility for identity. The Sovrin Foundation will continue to be the home for the governance and oversight of these important functions of the network, which is likely to be the largest deployment of the Hyperledger Indy code base and which will continue to inform its use and development. </p>
+    <h3> How do I get started with Hyperledger Indy? </h3>
+    <p> In order to participate in the development of the Hyperledger Indy project, you will need a <a href="https://identity.linuxfoundation.org">Linux Foundation account</a>. Once you have setup an account, try logging into the following community resources to be sure things are working properly: </p>
+    <ul>
+      <li> Hyperledger RocketChat https://chat.hyperledger.org/ - join the identity-wg channel, and set your avatar to something the Hyperledger community can recognize as you (a picture or something that matches your Github account) </li>
+      <li> Hyperledger Jira https://jira.hyperledger.org/ - again set your user image to something people in the Hyperledger community can recognize as you (a picture or at least something that matches your Github account)</li>
+    </ul>
+    <p>Hyperledger Jira <a href="https://jira.hyperledger.org/secure/Dashboard.jspa">https://jira.hyperledger.org/</a> - again set your user image to something people in the Hyperledger community can recognize as you (a picture or at least something that matches your Github account) </p>
+    <h3> Does this mean I can use Hyperledger Indy seamlessly with other Hyperledger projects? </h3>
+    <p> In theory, yes. In fact, how seamlessly you can use Indy from other Hyperledger projects depends on how well they integrate Indy into what they’re doing. An important reason for bringing Indy to Hyperledger was to make this kind of interaction easier and more likely. </p>
+    <h3> Is a node running Hyperledger Indy automatically part of the Sovrin network (and vice versa)? </h3>
+    <p> No. Hyperledger Indy is not an operating network, but a code development project. By contrast, Sovrin is an operating network—a living ledger in which each node is running an instance of the Project Indy code. <a href="http://forum.sovrin.org/t/sovrin-provisional-trust-framework-approved-22-march-2017/221">The Sovrin Network</a> is governed by the <a href="http://forum.sovrin.org/t/sovrin-provisional-trust-framework-approved-22-march-2017/221">Sovrin Trust Framework</a>. Only “stewards” (trusted institutions explicitly permissioned by the Trustees of the <a href="https://www.sovrin.org">Sovrin Foundation</a>) run nodes in the Sovrin Network. </p>
+    &nbsp;
+    <h3> Can Project Indy be used to set up other independent identity networks? Will they be governed by the Linux Foundation? </h3>
+    <p>Yes, anyone can use Project Indy to set up a decentralized identity network. However governance of those networks is out of scope for the Hyperledger consortium and the Linux Foundation.<br>
+    </p>
+    <h3> Which pieces of Sovrin will actually be part of Indy (for example, the code base for agents)? </h3>
+    <p> All of the code that Sovrin Foundation was maintaining for Sovrin, including the Plenum distributed ledger, client framework, validator node system, and agent framework are included in the contribution to Indy. More information on the Hyperledger Indy project proposal, including references to current code and the getting started guides may be <a href="https://docs.google.com/document/d/1YzXz0aM8w7kSp3_ao3ue9tOFwK9paofXbtBptR1Jucg/edit">found here</a>. </p>
+<p>
+
+</p>
+
+  </div>
+</div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer-container container-lightorange">
+        <div class="container hero-container">
+            <div class="col-md-3">
+                <h4><a href="/">Home</a></h4>
+                <h4><a href="/about">About</a></h4>
+                <h4><a href="/about/faq.html">FAQ</a></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><a href="/technology.html">Technology</a></h4>
+                <h4><a href="/docs/">Library</a></h4>
+                 <h4><a href="http://forum.sovrin.org">Forum</a></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><a href="/contact.html">Contact</a></h4>
+                <h4><a href="/donate.html">Donate</a></h4>
+                <h4><a href="/subscribe.html">Subscribe</a></h4>
+            </div>
+            <div class="col-md-3">
+                <img src="/img/logo.svg" /><p><br/>
+                <a href="https://twitter.com/SovrinID"><i class="fa fa-twitter fa-2x"></i> Follow us @sovrinid</a>
+                <br/><br/>
+                <a href="https://sovrin.slack.com"><i class="fa fa-slack fa-2x"></i> Join us on Slack</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
