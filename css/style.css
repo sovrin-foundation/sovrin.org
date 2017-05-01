@@ -13,6 +13,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+a.link-hyperledger {
+  color: #df942c;
+}
+
 .profile-picture {
   max-width: 100%;
   padding: 15%;
